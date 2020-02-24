@@ -1,0 +1,17 @@
+[
+    {
+      "mode": "REQUIRED", 
+      "name": "timestamp", 
+      "type": "TIMESTAMP"
+    }, 
+    {
+      "mode": "REPEATED", 
+      "name": "attributed_search_terms", 
+      "type": "STRING"
+    }, 
+    {
+      "mode": "REPEATED", 
+      "name": "non_attributed_search_terms", 
+      "type": "STRING"
+    }
+  ]
